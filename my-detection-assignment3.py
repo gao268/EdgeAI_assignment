@@ -7,5 +7,4 @@ print(detections[0])
 display = jetson.utils.glDisplay()
 while display.IsOpen():
     display.RenderOnce(img)
-    display.SetTitle("Detecting objects...")
-    
+    display.SetTitle("Object Detection")
